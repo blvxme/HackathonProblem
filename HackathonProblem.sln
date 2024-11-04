@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{423E5FFB-9B28-4898-BB41-53026EFEC978}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{48376C3B-833B-42C5-ABFD-2B36F9FE6E21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nsu.HackathonProblem.Contracts", "src\Nsu.HackathonProblem.Contracts\Nsu.HackathonProblem.Contracts.csproj", "{EF1B9724-0807-4292-9932-7A9732269AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackathonProblem.Exceptions", "src\HackathonProblem.Exceptions\HackathonProblem.Exceptions.csproj", "{899D5BB1-D06B-42FC-AC63-24F818F2081D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackathonProblem.Strategy.Marriage", "src\HackathonProblem.Strategy.Marriage\HackathonProblem.Strategy.Marriage.csproj", "{9152E48F-4DA6-41FB-9971-13F300FDE00A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackathonProblem", "src\HackathonProblem\HackathonProblem.csproj", "{3DDDF23E-F5F0-447A-AE86-1939CD7D08C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackathonProblemTest", "test\HackathonProblemTest\HackathonProblemTest.csproj", "{C39F49FA-6AB1-4277-887B-0350EA8A460A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF1B9724-0807-4292-9932-7A9732269AFD} = {423E5FFB-9B28-4898-BB41-53026EFEC978}
+		{899D5BB1-D06B-42FC-AC63-24F818F2081D} = {423E5FFB-9B28-4898-BB41-53026EFEC978}
+		{9152E48F-4DA6-41FB-9971-13F300FDE00A} = {423E5FFB-9B28-4898-BB41-53026EFEC978}
+		{3DDDF23E-F5F0-447A-AE86-1939CD7D08C5} = {423E5FFB-9B28-4898-BB41-53026EFEC978}
+		{C39F49FA-6AB1-4277-887B-0350EA8A460A} = {48376C3B-833B-42C5-ABFD-2B36F9FE6E21}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF1B9724-0807-4292-9932-7A9732269AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1B9724-0807-4292-9932-7A9732269AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1B9724-0807-4292-9932-7A9732269AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1B9724-0807-4292-9932-7A9732269AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899D5BB1-D06B-42FC-AC63-24F818F2081D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899D5BB1-D06B-42FC-AC63-24F818F2081D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899D5BB1-D06B-42FC-AC63-24F818F2081D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899D5BB1-D06B-42FC-AC63-24F818F2081D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9152E48F-4DA6-41FB-9971-13F300FDE00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9152E48F-4DA6-41FB-9971-13F300FDE00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9152E48F-4DA6-41FB-9971-13F300FDE00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9152E48F-4DA6-41FB-9971-13F300FDE00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DDDF23E-F5F0-447A-AE86-1939CD7D08C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DDDF23E-F5F0-447A-AE86-1939CD7D08C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DDDF23E-F5F0-447A-AE86-1939CD7D08C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DDDF23E-F5F0-447A-AE86-1939CD7D08C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39F49FA-6AB1-4277-887B-0350EA8A460A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39F49FA-6AB1-4277-887B-0350EA8A460A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39F49FA-6AB1-4277-887B-0350EA8A460A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39F49FA-6AB1-4277-887B-0350EA8A460A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
